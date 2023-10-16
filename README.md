@@ -19,7 +19,7 @@ provider "alicloud" {
 }
 
 module "log_archive" {
-  source = "terraform-alicloud-modules/landingzone-log-archive/alicloud"
+  source = "alibabacloud-automation/landingzone-log-archive/alicloud"
 
   providers = {
     management_account = alicloud.management_account
