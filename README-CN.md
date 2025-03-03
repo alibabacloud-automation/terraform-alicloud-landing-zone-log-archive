@@ -2,22 +2,22 @@ Terraform module to implements Multi-Account Log Archive.
 
 # terraform-alicloud-landing-zone-log-archive
 
-English | [简体中文](https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-log-archive/blob/main/README-CN.md)
+[English](https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-log-archive/blob/main/README.md) | 简体中文
 
-Log auditing is not only the basis of enterprise security compliance, but also a rigid requirement of laws and regulations. In a multi-account system, the unified collection and archiving of audit logs can not only ensure the implementation of relevant laws and regulations, but also is an important part of enterprise security protection.
+日志审计既是企业安全合规的基础，也是国内外法律法规的刚性要求。在多账号体系下，审计日志的统一采集与归档，既可以确保相关法律法规的落地，也是企业安全防护的重要一环。
 
-This module is based on the log auditing of the SLS service, enabling the automated and unified collection and archiving of audit logs in the cloud. It meets the audit and security needs of enterprises on the cloud within a multi-account system.
+本Module基于日志服务的日志审计功能，实现云上审计日志自动化的统一采集和归档，满足在多账号体系下，企业在云上的相关审计和安全需求。
 
-![Structure](https://raw.githubusercontent.com/alibabacloud-automation/terraform-alicloud-landing-zone-log-archive/main/pictures/structure.png)
+![Structure](https://raw.githubusercontent.com/alibabacloud-automation/terraform-alicloud-landing-zone-log-archive/main/pictures/structure-CN.png)
 
-## Prerequisites
+## 前提条件
 
-- Built multi-account structure in Resource Directory.
-- Enabled OSS service and SLS service in logarchive account.
+- 基于资源目录构建多账号体系。
+- 在日志账号中开通OSS和SLS。
 
-## Usage
+## 使用方式
 
-You can use this in your terraform template with the following steps.
+您可以通过以下步骤在您的 terraform 模板中使用它。
 
 ```hcl
 provider "alicloud" {
@@ -108,7 +108,7 @@ module "cold_archive_to_oss" {
 
 - [cold-archive-to-oss module](https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-log-archive/tree/main/modules/cold-archive-to-oss)
 
-## Examples
+## 示例
 
 - [Basic Example](https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-log-archive/tree/main/examples/basic)
 - [Complete Example](https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-log-archive/tree/main/examples/complete)
