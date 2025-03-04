@@ -164,3 +164,23 @@ No modules.
 | <a name="output_log_audit_id"></a> [log\_audit\_id](#output\_log\_audit\_id) | The ID of the log audit. |
 | <a name="output_resource_manager_delegated_administrator_id"></a> [resource\_manager\_delegated\_administrator\_id](#output\_resource\_manager\_delegated\_administrator\_id) | The resource ID of Delegated Administrator. The value formats as <account\_id>:<service\_principal>. |
 <!-- END_TF_DOCS -->
+
+## 提交问题
+
+如果在使用该 Terraform Module 的过程中有任何问题，可以直接创建一个 [Provider Issue](https://github.com/aliyun/terraform-provider-alicloud/issues/new)，我们将根据问题描述提供解决方案。
+
+**注意:** 不建议在该 Module 仓库中直接提交 Issue。
+
+## 作者
+
+Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com).
+
+## 许可
+
+MIT Licensed. See LICENSE for full details.
+
+## 参考
+
+* [Terraform-Provider-Alicloud Github](https://github.com/aliyun/terraform-provider-alicloud)
+* [Terraform-Provider-Alicloud Release](https://releases.hashicorp.com/terraform-provider-alicloud/)
+* [Terraform-Provider-Alicloud Docs](https://registry.terraform.io/providers/aliyun/alicloud/latest/docs)
